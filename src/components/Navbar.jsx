@@ -9,11 +9,10 @@ const Navbar = () => {
       </div>
 
       <ul className="navbar-nav">
-        <li className="nav-item">
+        <li className='nav-item'>
           <Link
-            exact
             className="nav-link"
-            to='/'
+            to='/home'
           >
             Главная
           </Link>
