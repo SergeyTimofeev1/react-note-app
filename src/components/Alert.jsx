@@ -9,8 +9,8 @@ const Alert = () => {
 
   return (
     <div className={`alert alert-${alert.type || 'warning'} alert-dismissible`}>
-      <strong>Внимание</strong>
-      {alert.text}
+      <strong>Внимание!</strong>
+      &nbsp;{alert.text}
       <button
         type='button'
         className='alert-btn'
